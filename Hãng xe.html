@@ -1,0 +1,935 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="JDM Car - Danh mục các hãng xe và các mẫu xe phong cách JDM huyền thoại: Toyota, Nissan, Honda, Mazda, Subaru, Mitsubishi."
+    />
+    <title>Hãng Xe JDM - Bộ Sưu Tập Xe Thể Thao Nhật Bản | JDM Car</title>
+
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ==================== HEADER & NAVIGATION (GIỮ NGUYÊN TƯƠNG TỰ TRANG CHỦ) ==================== -->
+    <header id="header" class="site-header">
+      <nav class="navbar" id="navbar">
+        <div class="nav-container">
+          <!-- Logo -->
+          <a href="index.html" class="logo" id="site-logo">
+            <span class="logo-accent">JDM</span> Car
+          </a>
+
+          <!-- Navigation Menu -->
+          <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a href="Hãng xe.html" class="nav-link active">Hãng xe</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html#services" class="nav-link">Sản phẩm & Dịch vụ</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Liên hệ</a>
+            </li>
+          </ul>
+
+          <!-- Mobile Menu Toggle Button -->
+          <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main id="main-content">
+      <!-- Brand Page Hero Banner -->
+      <section class="brand-hero">
+        <div class="container">
+          <div class="brand-hero-content">
+            <span class="section-badge">Bộ Sưu Tập JDM Legends</span>
+            <h1 class="brand-hero-title">Các Hãng Xe & Mẫu Xe Huyền Thoại</h1>
+            <p class="brand-hero-subtitle">
+              Khám phá thế giới xe thể thao hiệu năng cao đỉnh cao từ các thương hiệu lừng danh
+              Nhật Bản: Toyota, Nissan, Honda, Mazda, Subaru và Mitsubishi.
+            </p>
+          </div>
+
+          <!-- Controls: Filter Pills & Live Search -->
+          <div class="brand-controls-wrapper">
+            <!-- Brand Filter Tabs -->
+            <div class="brand-filter-tabs" id="brand-filters">
+              <button class="brand-filter-btn active" data-filter="all">
+                <i class="fas fa-border-all"></i> Tất Cả Hãng
+              </button>
+              <button class="brand-filter-btn" data-filter="toyota">
+                <i class="fas fa-car-side"></i> Toyota
+              </button>
+              <button class="brand-filter-btn" data-filter="nissan">
+                <i class="fas fa-bolt"></i> Nissan
+              </button>
+              <button class="brand-filter-btn" data-filter="honda">
+                <i class="fas fa-trophy"></i> Honda
+              </button>
+              <button class="brand-filter-btn" data-filter="mazda">
+                <i class="fas fa-fire-flame-curved"></i> Mazda
+              </button>
+              <button class="brand-filter-btn" data-filter="subaru">
+                <i class="fas fa-star"></i> Subaru
+              </button>
+              <button class="brand-filter-btn" data-filter="mitsubishi">
+                <i class="fas fa-gem"></i> Mitsubishi
+              </button>
+            </div>
+
+            <!-- Live Search & Count -->
+            <div class="brand-search-row">
+              <div class="brand-live-search">
+                <i class="fas fa-magnifying-glass"></i>
+                <input
+                  type="text"
+                  id="brand-live-search-input"
+                  placeholder="Tìm kiếm dòng xe (VD: Supra, Skyline, RX-7, NSX, Evo, WRX)..."
+                  aria-label="Tìm kiếm dòng xe"
+                />
+              </div>
+              <div class="brand-count-badge">
+                Hiển thị: <strong id="cars-count">12</strong> mẫu xe
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Car Showcase Grid: Các Box Nhỏ Mỗi Box Chứa Hình Ảnh 1 Chiếc Xe -->
+      <section class="cars-showcase-section" id="cars-showcase">
+        <div class="container">
+          <div class="cars-grid" id="cars-grid">
+            
+            <!-- Box 1: Toyota Supra MK4 -->
+            <article
+              class="car-box"
+              data-brand="toyota"
+              data-engine="3.0L Twin-Turbo 2JZ-GTE I6"
+              data-power="326 HP @ 5,600 rpm"
+              data-torque="441 Nm @ 4,800 rpm"
+              data-drive="Cầu sau RWD (Torsen LSD)"
+              data-transmission="Hộp số sàn 6 cấp Getrag V160"
+              data-year="1998 • JDM A80"
+              data-description="Huyền thoại bất tử của làng xe độ thế giới với cỗ máy gang đúc 2JZ-GTE trứ danh có khả năng chịu tải trên 1000 mã lực. Biểu tượng tốc độ thuần chất JDM."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=800&auto=format&fit=crop"
+                  alt="Toyota Supra MK4 (A80) 2JZ-GTE"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-shield-halved"></i> Toyota</span>
+                <span class="car-badge-status">Huyền thoại 2JZ</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Toyota • A80 Series</p>
+                  <h2 class="car-box-title">Toyota Supra MK4 Twin-Turbo</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 3.0L 2JZ-GTE
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 326 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 6-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> Cầu sau RWD
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Tốc độ tối đa</span>
+                    <span class="power-val">250+ km/h</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Toyota Supra MK4">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Box 2: Nissan Skyline GT-R R34 -->
+            <article
+              class="car-box"
+              data-brand="nissan"
+              data-engine="2.6L Twin-Turbo RB26DETT I6"
+              data-power="327 HP @ 6,800 rpm"
+              data-torque="392 Nm @ 4,400 rpm"
+              data-drive="AWD ATTESA E-TS Pro + HICAS"
+              data-transmission="Hộp số sàn 6 cấp Getrag"
+              data-year="2002 • V-Spec II Nur"
+              data-description="Mệnh danh là 'Godzilla', Nissan Skyline GT-R R34 thống trị mọi đường đua với hệ dẫn động 4 bánh toàn thời gian thông minh và động cơ đua RB26DETT huyền thoại."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=800&auto=format&fit=crop"
+                  alt="Nissan Skyline GT-R R34 V-Spec"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-bolt"></i> Nissan</span>
+                <span class="car-badge-status">Godzilla JDM</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Nissan • BNR34 Series</p>
+                  <h2 class="car-box-title">Nissan Skyline GT-R R34</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 2.6L RB26DETT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 327 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 6-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> 4WD ATTESA
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Tăng tốc 0-100</span>
+                    <span class="power-val">4.6 Giây</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Nissan Skyline GT-R R34">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Box 3: Mazda RX-7 FD3S Spirit R -->
+            <article
+              class="car-box"
+              data-brand="mazda"
+              data-engine="1.3L Twin-Rotor 13B-REW Turbo"
+              data-power="276 HP @ 6,500 rpm"
+              data-torque="314 Nm @ 5,000 rpm"
+              data-drive="Cầu sau RWD (Phân bổ trọng lượng 50:50)"
+              data-transmission="Hộp số sàn 5 cấp Short-Throw"
+              data-year="2002 • FD3S Spirit R"
+              data-description="Đỉnh cao thiết kế khí động học cùng động cơ xoay Wankel vòng tua cao độc nhất vô nhị. Âm thanh bốc lửa và khả năng ôm cua hoàn hảo như dao cạo."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800&auto=format&fit=crop"
+                  alt="Mazda RX-7 FD3S Spirit R"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-fire"></i> Mazda</span>
+                <span class="car-badge-status">Rotary Huyền Thoại</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Mazda • FD3S Series</p>
+                  <h2 class="car-box-title">Mazda RX-7 FD3S Spirit R</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 1.3L 13B-REW
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 276 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 5-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> Cầu sau RWD
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Vòng tua máy</span>
+                    <span class="power-val">8,200 RPM</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Mazda RX-7">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Box 4: Honda NSX Type R (NA1) -->
+            <article
+              class="car-box"
+              data-brand="honda"
+              data-engine="3.0L DOHC VTEC C30A V6"
+              data-power="270 HP @ 7,100 rpm"
+              data-torque="285 Nm @ 5,400 rpm"
+              data-drive="Đặt giữa Mid-Engine RWD"
+              data-transmission="Hộp số sàn 5 cấp thể thao"
+              data-year="1994 • NA1 Type R"
+              data-description="Được tinh chỉnh bởi huyền thoại F1 Ayrton Senna, khung gầm nhôm nguyên khối đầu tiên trong lịch sử, được mệnh danh là 'Ferrari của người Nhật' với độ bền siêu hạng."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=800&auto=format&fit=crop"
+                  alt="Honda NSX Type R NA1"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-trophy"></i> Honda</span>
+                <span class="car-badge-status">Siêu Xe JDM</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Honda • NA1 Series</p>
+                  <h2 class="car-box-title">Honda NSX Type R (NA1)</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 3.0L C30A VTEC
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 270 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 5-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> Mid-Engine
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Trọng lượng</span>
+                    <span class="power-val">1,230 kg</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Honda NSX Type R">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Box 5: Mitsubishi Lancer Evolution IX MR -->
+            <article
+              class="car-box"
+              data-brand="mitsubishi"
+              data-engine="2.0L Turbo 4G63T MIVEC I4"
+              data-power="287 HP @ 6,500 rpm"
+              data-torque="392 Nm @ 3,500 rpm"
+              data-drive="Hệ dẫn động 4 bánh Super AYC + ACD"
+              data-transmission="Hộp số sàn 6 cấp Bilstein Spec"
+              data-year="2006 • CT9A Evo IX"
+              data-description="Vũ khí thống trị giải vô địch đua xe đường sỏi WRC. Trái tim 4G63T danh tiếng kết hợp vi sai thông minh Super All-Wheel Control cho độ bám đường phi thường."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1619405399517-d7fce0f13302?q=80&w=800&auto=format&fit=crop"
+                  alt="Mitsubishi Lancer Evolution IX MR"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-gem"></i> Mitsubishi</span>
+                <span class="car-badge-status">Vua Đường Đua Rally</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Mitsubishi • CT9A Series</p>
+                  <h2 class="car-box-title">Lancer Evolution IX MR</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 2.0L 4G63T MIVEC
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 287 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 6-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> 4WD Super AYC
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Tăng tốc 0-100</span>
+                    <span class="power-val">4.5 Giây</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Mitsubishi Evo IX">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Box 6: Subaru Impreza WRX STI -->
+            <article
+              class="car-box"
+              data-brand="subaru"
+              data-engine="2.5L Turbo Boxer EJ257 / EJ207"
+              data-power="300 HP @ 6,000 rpm"
+              data-torque="407 Nm @ 4,000 rpm"
+              data-drive="Symmetrical AWD + Vi sai chủ động DCCD"
+              data-transmission="Hộp số sàn 6 cấp STI cự ly ngắn"
+              data-year="2005 • Blobeye WRX STI"
+              data-description="Âm thanh nổ 'Rumble' độc bản từ động cơ Boxer xi-lanh đối đỉnh. Cánh lướt gió cỡ lớn, mâm đúc vàng đồng BBS và khả năng bứt tốc trên mọi địa hình trơn trượt."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?q=80&w=800&auto=format&fit=crop"
+                  alt="Subaru Impreza WRX STI"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-star"></i> Subaru</span>
+                <span class="car-badge-status">Âm Thanh Boxer</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Subaru • GDB Series</p>
+                  <h2 class="car-box-title">Subaru Impreza WRX STI</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 2.5L Turbo Boxer
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 300 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 6-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> Sym AWD DCCD
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Hệ dẫn động</span>
+                    <span class="power-val">AWD Đua</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Subaru WRX STI">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Box 7: Nissan Silvia S15 Spec-R -->
+            <article
+              class="car-box"
+              data-brand="nissan"
+              data-engine="2.0L Turbo SR20DET DOHC I4"
+              data-power="250 HP @ 6,400 rpm"
+              data-torque="275 Nm @ 4,800 rpm"
+              data-drive="Cầu sau RWD (Helical LSD)"
+              data-transmission="Hộp số sàn 6 cấp Aisin"
+              data-year="2001 • Spec-R Aero"
+              data-description="Được ví là 'Vua Trôi Xe' (Drift King) của mọi thời đại nhờ khung gầm cân bằng, trọng lượng nhẹ và khối động cơ SR20DET cực nhạy ga."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=800&auto=format&fit=crop"
+                  alt="Nissan Silvia S15 Spec-R"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-bolt"></i> Nissan</span>
+                <span class="car-badge-status">Drift Icon</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Nissan • S15 Platform</p>
+                  <h2 class="car-box-title">Nissan Silvia S15 Spec-R</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 2.0L SR20DET
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 250 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 6-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> Cầu sau RWD
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Trọng lượng</span>
+                    <span class="power-val">1,240 kg</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Nissan Silvia S15">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Box 8: Honda Civic Type R (FK8) -->
+            <article
+              class="car-box"
+              data-brand="honda"
+              data-engine="2.0L Turbo VTEC K20C1 I4"
+              data-power="316 HP @ 6,500 rpm"
+              data-torque="400 Nm @ 2,500 rpm"
+              data-drive="Cầu trước FWD (Vi sai chống trượt xoắn ốc)"
+              data-transmission="Hộp số sàn 6 cấp có Rev-Match"
+              data-year="2021 • FK8 Limited Edition"
+              data-description="Quái vật phá kỷ lục đường đua Nürburgring phân khúc cầu trước. Cánh gió khí động học đồ sộ và khối máy K20C1 Turbo bốc lửa ở mọi dải tốc độ."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1541348263662-e0c8666574ec?q=80&w=800&auto=format&fit=crop"
+                  alt="Honda Civic Type R FK8"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-trophy"></i> Honda</span>
+                <span class="car-badge-status">Kỷ Lục Cầu Trước</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Honda • FK8 Generation</p>
+                  <h2 class="car-box-title">Civic Type R (FK8 Spec)</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 2.0L K20C1 Turbo
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 316 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 6-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> FWD Track-Tuned
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Tốc độ tối đa</span>
+                    <span class="power-val">272 km/h</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Civic Type R">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Box 9: Toyota Sprinter Trueno AE86 -->
+            <article
+              class="car-box"
+              data-brand="toyota"
+              data-engine="1.6L DOHC 16V 4A-GE I4"
+              data-power="130 HP @ 6,600 rpm"
+              data-torque="149 Nm @ 5,200 rpm"
+              data-drive="Cầu sau FR siêu nhẹ"
+              data-transmission="Hộp số sàn 5 cấp T50"
+              data-year="1986 • Hachi-Roku"
+              data-description="Biểu tượng bất diệt trong bộ truyện Initial D và gắn liền với tay đua huyền thoại Keiichi Tsuchiya. Khung gầm 950kg giúp xe lướt êm qua mọi góc cua đèo núi."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=800&auto=format&fit=crop"
+                  alt="Toyota Sprinter Trueno AE86 Hachi-Roku"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-shield-halved"></i> Toyota</span>
+                <span class="car-badge-status">Initial D Legend</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Toyota • AE86 Hachi-Roku</p>
+                  <h2 class="car-box-title">Sprinter Trueno AE86</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 1.6L 4A-GE DOHC
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 130 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 5-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> RWD Siêu Nhẹ
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Trọng lượng</span>
+                    <span class="power-val">950 kg</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Toyota AE86">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Box 10: Mazda MX-5 Miata (NA) -->
+            <article
+              class="car-box"
+              data-brand="mazda"
+              data-engine="1.8L DOHC BP-ZE I4"
+              data-power="131 HP @ 6,500 rpm"
+              data-torque="152 Nm @ 5,500 rpm"
+              data-drive="Cầu sau RWD (Tỉ lệ trọng lượng 50:50)"
+              data-transmission="Hộp số sàn 5 cấp Short-Throw"
+              data-year="1995 • NA Series Pop-up"
+              data-description="Dòng roadster thể thao mui trần bán chạy nhất hành tinh với cụm đèn mắt ếch pop-up kinh điển, mang lại niềm vui lái thuần khiết và chân thực nhất."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=800&auto=format&fit=crop"
+                  alt="Mazda MX-5 Miata NA"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-fire"></i> Mazda</span>
+                <span class="car-badge-status">Roadster Huyền Thoại</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Mazda • NA Pop-up Lights</p>
+                  <h2 class="car-box-title">Mazda MX-5 Miata (NA)</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 1.8L BP DOHC
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 131 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 5-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> 50:50 Balance
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Cảm giác lái</span>
+                    <span class="power-val">Jinba Ittai</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Mazda Miata NA">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Box 11: Subaru BRZ STI Sport -->
+            <article
+              class="car-box"
+              data-brand="subaru"
+              data-engine="2.4L Hút Khí Tự Nhiên FA24 Boxer"
+              data-power="228 HP @ 7,000 rpm"
+              data-torque="250 Nm @ 3,700 rpm"
+              data-drive="Cầu sau RWD Trọng tâm siêu thấp"
+              data-transmission="Hộp số sàn 6 cấp thể thao"
+              data-year="2023 • ZD8 STI Sport"
+              data-description="Đại diện cho trường phái JDM hiện đại, thừa hưởng tinh hoa động cơ Boxer hạ thấp trọng tâm, mang đến khả năng kiểm soát thân xe chuẩn mực trên mọi cung đường."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?q=80&w=800&auto=format&fit=crop"
+                  alt="Subaru BRZ STI Sport"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-star"></i> Subaru</span>
+                <span class="car-badge-status">Modern JDM</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Subaru • ZD8 Generation</p>
+                  <h2 class="car-box-title">Subaru BRZ STI Sport</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 2.4L FA24 Boxer
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 228 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 6-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> Cầu sau RWD
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Vòng tua máy</span>
+                    <span class="power-val">7,500 RPM</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Subaru BRZ">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Box 12: Mitsubishi 3000GT VR-4 -->
+            <article
+              class="car-box"
+              data-brand="mitsubishi"
+              data-engine="3.0L Twin-Turbo 6G72 DOHC V6"
+              data-power="320 HP @ 6,000 rpm"
+              data-torque="427 Nm @ 2,500 rpm"
+              data-drive="Hệ dẫn động AWD + Bẻ lái 4 bánh 4WS"
+              data-transmission="Hộp số sàn 6 cấp Getrag"
+              data-year="1999 • GTO VR-4"
+              data-description="Đỉnh cao công nghệ của thập niên 90 với hệ thống khí động học chủ động Active Aero, giảm chấn điện tử và bẻ lái 4 bánh 4-Wheel Steering cực kỳ tân tiến."
+            >
+              <div class="car-box-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=800&auto=format&fit=crop"
+                  alt="Mitsubishi 3000GT VR-4"
+                  class="car-box-image"
+                  loading="lazy"
+                />
+                <div class="car-box-image-overlay"></div>
+                <span class="car-brand-tag"><i class="fas fa-gem"></i> Mitsubishi</span>
+                <span class="car-badge-status">Công Nghệ Đỉnh Cao</span>
+              </div>
+              <div class="car-box-body">
+                <div class="car-box-header">
+                  <p class="car-box-subtitle">Mitsubishi • GTO Series</p>
+                  <h2 class="car-box-title">Mitsubishi 3000GT VR-4</h2>
+                </div>
+                <div class="car-specs-grid">
+                  <div class="spec-item">
+                    <i class="fas fa-gears"></i> 3.0L Twin-Turbo V6
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-gauge-high"></i> 320 HP
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-code-branch"></i> 6-Speed MT
+                  </div>
+                  <div class="spec-item">
+                    <i class="fas fa-arrows-turn-to-dots"></i> AWD + 4WS
+                  </div>
+                </div>
+                <div class="car-box-footer">
+                  <div class="car-box-power">
+                    <span class="power-label">Hệ thống lái</span>
+                    <span class="power-val">Active Aero 4WS</span>
+                  </div>
+                  <button class="btn-card-action btn-view-car" aria-label="Xem chi tiết Mitsubishi 3000GT">
+                    <i class="fas fa-circle-info"></i> Chi tiết
+                  </button>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+          <!-- Trạng thái không tìm thấy mẫu xe -->
+          <div class="cars-no-result" id="cars-no-result">
+            <i class="fas fa-car-tunnel"></i>
+            <h3>Không tìm thấy mẫu xe phù hợp</h3>
+            <p>Vui lòng thử lại với tên dòng xe khác hoặc chọn nút "Tất Cả Hãng".</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== QUICK DETAIL MODAL ==================== -->
+    <div class="car-modal-backdrop" id="car-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="car-modal-container">
+        <button class="car-modal-close" id="modal-close-btn" aria-label="Đóng cửa sổ">
+          <i class="fas fa-xmark"></i>
+        </button>
+        <div class="car-modal-media">
+          <img id="modal-img" src="" alt="Hình ảnh chi tiết xe" />
+        </div>
+        <div class="car-modal-content">
+          <span class="modal-car-brand" id="modal-brand">TOYOTA</span>
+          <h2 class="modal-car-title" id="modal-title">Tên Dòng Xe</h2>
+          <p class="modal-car-desc" id="modal-desc">
+            Mô tả chi tiết về mẫu xe...
+          </p>
+
+          <table class="modal-specs-table">
+            <tbody>
+              <tr>
+                <td>Mã động cơ</td>
+                <td id="modal-engine">-</td>
+              </tr>
+              <tr>
+                <td>Công suất tối đa</td>
+                <td id="modal-power">-</td>
+              </tr>
+              <tr>
+                <td>Mô-men xoắn</td>
+                <td id="modal-torque">-</td>
+              </tr>
+              <tr>
+                <td>Hệ dẫn động</td>
+                <td id="modal-drive">-</td>
+              </tr>
+              <tr>
+                <td>Hộp số</td>
+                <td id="modal-transmission">-</td>
+              </tr>
+              <tr>
+                <td>Năm sản xuất / Đời</td>
+                <td id="modal-year">-</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="modal-actions">
+            <a href="index.html#services" class="btn btn-primary">
+              <i class="fas fa-wrench"></i> Xem Gói Nâng Cấp Xe
+            </a>
+            <a href="#contact" class="btn btn-secondary" onclick="document.getElementById('car-modal').classList.remove('active'); document.body.style.overflow='';">
+              <i class="fas fa-phone"></i> Liên Hệ Tư Vấn
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== FOOTER (ĐỒNG BỘ TRANG CHỦ) ==================== -->
+    <footer id="contact" class="site-footer">
+      <div class="container footer-container">
+        <div class="footer-grid">
+          <!-- Logo & About -->
+          <div class="footer-col footer-about">
+            <a href="index.html" class="footer-logo">
+              <span class="logo-accent">JDM</span> Car
+            </a>
+            <p class="footer-bio">
+              Chuyên cung cấp dịch vụ chăm sóc, bảo dưỡng và nâng cấp xe hơi
+              phong cách JDM chuẩn chất lượng hàng đầu.
+            </p>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="footer-col footer-contact">
+            <h4 class="footer-heading">Thông Tin Liên Hệ</h4>
+            <ul class="contact-list">
+              <li>
+                <i class="fas fa-location-dot"></i>
+                <span>123 Đường JDM, Quận Cầu Giấy, Hà Nội</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:0987654321">0987 654 321</a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:contact@jdmcar.vn">contact@jdmcar.vn</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="footer-col footer-social">
+            <h4 class="footer-heading">Mạng Xã Hội</h4>
+            <p>Theo dõi chúng tôi để cập nhật những bản độ mới nhất:</p>
+            <div class="social-icons">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="YouTube"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a
+                href="https://tiktok.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="TikTok"
+              >
+                <i class="fab fa-tiktok"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 <strong>JDM Car</strong>. Tất cả quyền được bảo lưu
+            (Copyright).
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
